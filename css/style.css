@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  width: 60%;
+  margin: auto;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F1F1F1;
+  font-size: 1.3em;
+  align-items: center;
+  margin: 0.5em 0 0.5em 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+header h1{
+  font-size: 1.3em;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.8em;
+}
+
+.filters a {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #CCC;
+  border-right: none;
+}
+
+.filters a:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.filters a:last-child {
+  border: 1px solid lightgrey;
+  border-radius: 0 4px 4px 0;
+}
+
+.filters a:hover {
+  background-color: #e1e1e1;
+}
+
+.filters a.activ {
+  background-color: #C5C5C5;
+  color: white;
+}
+
+main .tasks li{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em 0 0.7em 1em;
+  font-size: 1.1em;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 5px solid #eaeaea;
+  border-radius: 5px 0 0 5px;
+}
+
+ .tasks li:hover{
+  border-left: 15px solid #eaeaea;
+}
+
+.task-work{
+  color: #5628B4;
+  border-left-color: #5628B4;
+}
+
+.task-social{
+  color: #D80E70;
+  border-left-color: #D80E70;
+}
+
+.task-hobby{
+  color: #E7455F;
+  border-left-color: #E7455F;
+}
+
+.task-other{
+  color: #F7B236;
+  border-left-color: #F7B236;
+}
+
+.task-all{
+  color: grey;
+  border-left-color: #F7B236;
+}
+
+main .tasks .item-actions > a{
+  color: black;
+  padding: 5px 8px;
+
+}
+
+hr {
+  border : 2px solid #CCC;
+  margin: 15px 0;
+}
+
+input[type="text"] {
+  margin-left: 20px;
+  margin-right: 0;
+  border-radius: 5px 0 0 5px;
+  padding: 8px;
+  border: 1px solid #E2E2E2;
+}
+
+input[type="submit"] {
+  margin-left: -5px;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #E2E2E2;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #EFEFEF;
+}
+
+select{
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.hide{
+  display:none;
+}
+
+.done{
+  opacity:0.3;
+}
+
+footer {
+
+}
