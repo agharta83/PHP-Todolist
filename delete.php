@@ -13,4 +13,7 @@ foreach($_SESSION['tasks'] as $index => $currentTask){
     unset($_SESSION['tasks'][$index]);
   }
 }
+
+//me permet de renvoyer mon entete http vers un script precis ici index.php
+header('location: index.php');
 ?>

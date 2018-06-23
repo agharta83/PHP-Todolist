@@ -65,21 +65,25 @@ main .tasks li{
   border-left: 15px solid #eaeaea;
 }
 
+main .tasks li.task-work,
 .task-work{
   color: #5628B4;
   border-left-color: #5628B4;
 }
 
+main .tasks li.task-social,
 .task-social{
   color: #D80E70;
   border-left-color: #D80E70;
 }
 
+main .tasks li.task-hobby,
 .task-hobby{
   color: #E7455F;
   border-left-color: #E7455F;
 }
 
+main .tasks li.task-other,
 .task-other{
   color: #F7B236;
   border-left-color: #F7B236;
@@ -122,10 +126,22 @@ input[type="submit"]:hover {
   background-color: #EFEFEF;
 }
 
-select{
-  background-color: #EFEFEF;
+input[type="button"] {
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #E2E2E2;
+  font-weight: bold;
   border-radius: 5px;
-  margin-left: 20px;
+}
+
+input[type="button"]:hover {
+  background-color: #EFEFEF;
+}
+
+select {
+  background-color: white;
+  border: 1px solid #E2E2E2;
+  padding: 5px;
 }
 
 .hide{

@@ -1,6 +1,9 @@
 <?php
 
-
+/*
+  si ma liste est vide au premier accès de ma page
+  alors je leur donne ces valeurs par defaut
+*/
 if(empty($_SESSION['tasks'])){
   $_SESSION['tasks'] = [
     [ 'id' => 1,
